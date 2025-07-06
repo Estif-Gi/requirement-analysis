@@ -82,3 +82,71 @@ Feasible ✔️
 Testable ✔️
 
 Methods: Reviews, prototyping, traceability matrices
+
+
+# Types of Requirements.
+
+1. Functional Requirements (What the system must DO)
+Define the specific features and actions the system must perform.
+
+Examples for a Booking Management System:
+
+User Registration & Authentication
+
+"Users must be able to register using email and password."
+
+"Users should be able to reset passwords via email."
+
+Booking Management
+
+"Customers can search for available slots based on date/time."
+
+"Admins can approve, reject, or modify bookings."
+
+Payment Processing
+
+"The system must integrate with PayPal and Stripe for payments."
+
+"Users should receive a payment confirmation email."
+
+Notifications
+
+"Users should get SMS/email reminders 24 hours before booking."
+
+"Admins should receive alerts for new booking requests."
+
+2. Non-Functional Requirements (How the system must PERFORM)
+Define quality attributes, constraints, and performance standards.
+
+Examples for a Booking Management System:
+
+Performance
+
+"The system should handle 1,000 concurrent users without slowdown."
+
+"Search results must load in under 2 seconds."
+
+Security
+
+"All user passwords must be encrypted (bcrypt/SHA-256)."
+
+"Payment data must comply with PCI DSS standards."
+
+Usability
+
+"The booking form should be completable in under 3 steps."
+
+"The UI must be mobile-responsive (support Android/iOS)."
+
+Reliability
+
+"The system must have 99.9% uptime (excluding maintenance)."
+
+"Failed transactions should trigger automatic retries (max 3 attempts)."
+
+Scalability
+
+"The database should support 10,000+ bookings per month."
+
+"The system should allow adding new payment gateways without downtime."
+
