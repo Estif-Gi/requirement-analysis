@@ -38,3 +38,47 @@ Example: Catching a missing regulatory requirement early avoids legal penalties 
 Clear requirements lead to more accurate timelines and budgets
 
 Example: Well-defined scope prevents endless "just one more feature" requests
+
+# Key Activities in Requirement Analysis.
+
+
+1. Requirement Gathering
+Collecting raw needs from stakeholders (users, clients, domain experts)
+
+Methods: Interviews, surveys, workshops, observation
+
+Output: Initial wishlist of features and constraints
+
+2. Requirement Elicitation
+Extracting hidden/implied needs through probing questions
+
+Techniques: User stories, scenarios, prototyping
+
+Focus: Understanding the "why" behind requests
+
+3. Requirement Documentation
+Structuring requirements into clear specifications
+
+Formats: SRS documents, use cases, user stories
+
+Key: Making requirements unambiguous and testable
+
+4. Requirement Analysis & Modeling
+Organizing requirements into logical structures
+
+Tools: UML diagrams, flowcharts, data models
+
+Purpose: Identifying relationships and conflicts
+
+5. Requirement Validation
+Verifying requirements are:
+
+Complete ✔️
+
+Consistent ✔️
+
+Feasible ✔️
+
+Testable ✔️
+
+Methods: Reviews, prototyping, traceability matrices
