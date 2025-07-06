@@ -185,3 +185,58 @@ Relationships between them
 
 
 [https://drive.google.com/file/d/1_DeZbisUi_7Sjq7cDBM0u3DjRVpzJ5M0/view?usp=sharing](https://drive.google.com/file/d/1_DeZbisUi_7Sjq7cDBM0u3DjRVpzJ5M0/view?usp=sharing)
+
+
+# Acceptance Criteria.
+Acceptance Criteria (AC) are clear, testable conditions that a feature must meet to be considered complete. They act as a contract between stakeholders and developers, ensuring:
+
+Clarity & Precision – Eliminates ambiguity in requirements.
+
+Alignment – Ensures developers and stakeholders agree on "done."
+
+Testability – Provides a basis for QA validation.
+
+Reduces Rework – Prevents misunderstandings that lead to costly fixes.
+
+Agile Compliance – Critical for User Stories in Scrum/Kanban.
+
+Example: Acceptance Criteria for a "Checkout" Feature (Booking System)
+Feature: "As a customer, I want to complete my booking by paying online so I can confirm my reservation."
+Acceptance Criteria:
+Payment Gateway Integration
+
+✅ The system must support credit/debit cards (Visa, MasterCard) and PayPal.
+
+✅ On successful payment, a booking confirmation email is sent.
+
+Form Validation
+
+✅ If the card number is invalid, display: "Invalid card number. Please check and retry."
+
+✅ If the CVV is missing, show: "CVV is required."
+
+Error Handling
+
+✅ If payment fails (e.g., insufficient funds), allow 3 retries before locking the checkout for 5 minutes.
+
+✅ Display a transaction receipt after success (with booking ID, amount, and date).
+
+Performance
+
+✅ The checkout page must load in <2 seconds (90% of users).
+
+✅ Payment processing should complete within 10 seconds (even during peak traffic).
+
+Security
+
+✅ All card details must be PCI DSS compliant (no raw storage).
+
+✅ Auto-logout after 5 minutes of inactivity during checkout.
+
+User Experience
+
+✅ A progress indicator (Step 1: Booking → Step 2: Payment → Step 3: Confirmation).
+
+✅ Option to save card details (opt-in only).
+
+
