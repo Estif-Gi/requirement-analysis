@@ -11,3 +11,5 @@ Feasibility Assessment – Evaluates technical, economic, and operational practi
 Foundation for Design & Development – Serves as a blueprint for architects, developers, and testers to build and validate the system.
 
 Risk Mitigation – Identifies potential conflicts, ambiguities, or gaps early, saving time and costs in later stages.
+
+Requirement Analysis is the process of identifying, documenting, and validating the needs and constraints of stakeholders to define what a software system must do. It is a crucial phase in the Software Development Life Cycle (SDLC) that ensures the final
