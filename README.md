@@ -150,3 +150,38 @@ Scalability
 
 "The system should allow adding new payment gateways without downtime."
 
+# Use Case Diagrams
+A Use Case Diagram is a visual representation of a system’s functional requirements from a user’s perspective. It shows:
+
+Actors (users, systems, or external entities)
+
+Use Cases (actions the system performs)
+
+Relationships between them
+
+┌───────────────────────────────────┐  
+│         Booking Management        │  
+└────────────────┬──────────────────┘  
+                 │  
+    ┌────────────┴────────────┐  
+    │       Book Appointment  │  
+    └────────────┬────────────┘  
+                 │  
+    ┌────────────▼────────────┐  
+    │       Cancel Booking    │◄──┐  
+    └────────────┬────────────┘   │  
+                 │                │  
+    ┌────────────▼────────────┐   │  
+    │     Process Payment     │   │  
+    └────────────┬────────────┘   │  
+                 │                │  
+    ┌────────────▼────────────┐   │  
+    │    Generate Invoice     │   │  
+    └────────────────────────┘   │  
+                                 │  
+┌─────────┐             ┌────────▼───────┐  
+│ Customer│             │      Admin     │  
+└─────────┘             └────────────────┘  
+
+
+https://drive.google.com/file/d/1_DeZbisUi_7Sjq7cDBM0u3DjRVpzJ5M0/view?usp=sharing
